@@ -1,28 +1,31 @@
 body {
     margin: 0;
-
+    box-sizing: content-box;
 }
+
 
 #img_arriba {
     width: 100vw;
     height: 300px;
     object-fit: cover;
-
 }
+
 
 #titulo_ppal {
     color: black;
-    border: 10px;
+    background-color: black;
+    border: 3px solid black;
     position: absolute;
     margin: 10px 5px 20px 20px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-
-
+    color: rgb(255 255 255);
+    border-radius: 5px;
+    padding: 5px;
 }
+
 
 #titulo_dos {
     background-color: black;
@@ -33,7 +36,6 @@ body {
     margin: 0;
     text-decoration: none;
     display: block;
-
 }
 
 
@@ -42,53 +44,102 @@ body {
     height: 85px;
     float: right;
     margin: 0;
-    object-fit: cover;
-
-
-
-}
-
-.inline_a {
-  
-    box-sizing: border-box;
-     position: relative;
-    display: block;
-    height: 500px;
-   
+    object-fit:contain;
 }
 
 
-
-.navegacion_a{
-
-    padding: 0px;
-    position: relative;
-    left: 85px;
-    top: 80px;
-     
-
+.secction {
+    align-items: space-between;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: baseline;
+    margin: 0px;
 }
 
-.navegacion_b {
 
-    padding: 0px;
-    position: relative;
-    left: 20px;
-    top: 150px;
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 180px;
+}
+
+.navegacion_a:hover {
+    color: red ;
     
+} 
+.navegacion_b:hover {
+    color: red ;
+    
+}
+
+.navegacion_c:hover {
+    color: red ;
+} 
+
+.navegacion_a {
+    display: flex;
+    justify-content: column;
+    padding: 30px;
+    align-content: flex-start;
+}
+.navegacion_b {
+    display: flex;
+    justify-content: column;
+    padding: 30px;
+    align-content: flex-start;
 }
 .navegacion_c {
+    display: flex;
+    justify-content: column;
+    padding: 30px;
+    align-content: flex-start;
+}
 
-    padding: 0px;
-    position: relative;
-    right: 55px;
-    top: 220px;
-    
-}
+
 .subtitulo_a {
-display: inline;
-position: relative;
-left: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+      
+    width: 800px;
 }
+
+
+.secction {
+
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    line-height: 2.5em;
+    flex-direction: row;
+    line-height: 20px;
+    margin: 0px;
+}
+
+
+
+.section_title {
+    text-align: center;
+    line-height: 1px;
+    align-items: flex-start;
+    
+
+}
+
+.secction_a {
+padding: 20px 10px; 
+}
+
+.subtit_le {
+    text-align: left
+}
+
+td {
+    text-align: center
+}
+
 
 
