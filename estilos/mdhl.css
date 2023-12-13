@@ -140,6 +140,15 @@ padding: 20px 10px;
 td {
     text-align: center
 }
+.telephone_mail {
+    display: flex;
+ justify-content: space-between;  
+ cursor: pointer;
+
+}
+
+
+
 
 
 
